@@ -1,0 +1,42 @@
+$Id$
+$Date$
+$File$
+$Author$
+$Revision$
+$Source$
+
+<FILE>                       : the filename                                        
+<BRANCH>                     : the branch name
+<COMMITHASH>                 : commit hash                                         
+<COMMITHASHABBREVIATED>      : abbreviated commit hash                             
+<TREEHASH>                   : tree hash                                           
+<TREEHASHABBREVIATED>        : abbreviated tree hash                               
+<PARENTHASHES>               : parent hashes                                       
+<PARENTHASHESABBREVIATED>    : abbreviated parent hashes                           
+<AUTHORNAME>                 : author name                                         
+<AUTHORNAMEMAILCAP>          : author name (respecting .mailmap)                   
+<AUTHOREMAIL>                : author email                                        
+<AUTHOREMAILMAILCAP>         : author email (respecting .mailmap)                  
+<AUTHORDATE>                 : author date (format respects --date= option)        
+<AUTHORDATERFC2822>          : author date, RFC2822 style                          
+<AUTHORDATERELATIVE>         : author date, relative                               
+<AUTHORDATEUNIX>             : author date, UNIX timestamp                         
+<AUTHORDATEISO8601>          : author date, ISO 8601 format                        
+<COMMITTERNAME>              : committer name                                      
+<COMMITTERNAMEMAILCAP>       : committer name (respecting .mailmap)                
+<COMMITTERDATE>              : committer date                                      
+<COMMITTERDATERFC2822>       : committer date, RFC2822 style                       
+<COMMITTERDATERELATIVE>      : committer date, relative                            
+<COMMITTERDATEUNIX>          : committer date, UNIX timestamp                      
+<COMMITTERDATEISO8601>       : committer date, ISO 8601 format                     
+<REFNAMES>                   : ref names, like the --decorate option of git-log(1) 
+<ENCODING>                   : encoding                                            
+<SUBJECT>                    : subject                                             
+<SUBJECTSANITIZED>           : sanitized subject line, suitable for a filename     
+<REFLOGSELECTOR>             : reflog selector, e.g., refs/stash@{1}               
+<REFLOGSELECTORSHORT>        : shortened reflog selector, e.g., stash@{1}          
+<REFLOGIDENTITYNAME>         : reflog identity name                                
+<REFLOGIDENTITYNAMEMAILCAP>  : reflog identity name (respecting .mailmap)          
+<REFLOGIDENTITYEMAIL>        : reflog identity email                               
+<REFLOGIDENTITYEMAILMAILCAP> : reflog identity email (respecting .mailmap)         
+<REFLOGSUBJECTS> 
